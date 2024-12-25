@@ -1,0 +1,36 @@
+[0.040s] Invoking command in '/home/om/ROS2_Workshop/Day1/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/ROS2_Workshop/Day1/build/new_robot_controller -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[10.546s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[11.075s] [100%] Built target simple_controller
+[11.088s] Invoked command in '/home/om/ROS2_Workshop/Day1/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/ROS2_Workshop/Day1/build/new_robot_controller -- -j8 -l8
+[11.090s] Invoking command in '/home/om/ROS2_Workshop/Day1/build/new_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/ROS2_Workshop/Day1/build/new_robot_controller
+[11.097s] -- Install configuration: ""
+[11.098s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/include/include
+[11.098s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/include/include/new_robot_controller
+[11.098s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/include/include/new_robot_controller/simple_controller.hpp
+[11.098s] -- Installing: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/lib/new_robot_controller/simple_controller
+[11.101s] -- Set runtime path of "/home/om/ROS2_Workshop/Day1/install/new_robot_controller/lib/new_robot_controller/simple_controller" to ""
+[11.101s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch
+[11.101s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch/joystick_teleop.launch.py
+[11.101s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch/simple_controller.launch.py
+[11.101s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/config
+[11.101s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/config/joy_config.yaml
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/config/new_robot_controllers.yaml
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/config/joy_teleop.yaml
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/ament_index/resource_index/package_run_dependencies/new_robot_controller
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/ament_index/resource_index/parent_prefix_path/new_robot_controller
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.sh
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/environment/ament_prefix_path.dsv
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/environment/path.sh
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/environment/path.dsv
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/local_setup.bash
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/local_setup.sh
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/local_setup.zsh
+[11.102s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/local_setup.dsv
+[11.102s] -- Installing: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/package.dsv
+[11.103s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/ament_index/resource_index/packages/new_robot_controller
+[11.103s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig.cmake
+[11.103s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/cmake/new_robot_controllerConfig-version.cmake
+[11.104s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/package.xml
+[11.104s] Invoked command in '/home/om/ROS2_Workshop/Day1/build/new_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/ROS2_Workshop/Day1/build/new_robot_controller

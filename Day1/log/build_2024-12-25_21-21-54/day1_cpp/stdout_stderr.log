@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[ 50%] Built target simple_publisher
+[100%] Built target simple_subscriber
+-- Install configuration: ""
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/simple_publisher
+-- Set runtime path of "/home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/simple_publisher" to ""
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/simple_subscriber
+-- Set runtime path of "/home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/simple_subscriber" to ""
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/ament_index/resource_index/package_run_dependencies/day1_cpp
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/ament_index/resource_index/parent_prefix_path/day1_cpp
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/environment/path.sh
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/environment/path.dsv
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/local_setup.bash
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/local_setup.sh
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/local_setup.zsh
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/local_setup.dsv
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/package.dsv
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/ament_index/resource_index/packages/day1_cpp
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/cmake/day1_cppConfig.cmake
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/cmake/day1_cppConfig-version.cmake
+-- Installing: /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/package.xml
