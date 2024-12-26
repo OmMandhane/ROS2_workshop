@@ -223,6 +223,32 @@ simple_subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/build
 .PHONY : simple_subscriber/fast
 
+#=============================================================================
+# Target rules for targets named task1
+
+# Build rule for target.
+task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
+.PHONY : task1
+
+# fast build rule for target.
+task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+.PHONY : task1/fast
+
+#=============================================================================
+# Target rules for targets named task2
+
+# Build rule for target.
+task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task2
+.PHONY : task2
+
+# fast build rule for target.
+task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+.PHONY : task2/fast
+
 src/simple_publisher.o: src/simple_publisher.cpp.o
 .PHONY : src/simple_publisher.o
 
@@ -271,6 +297,54 @@ src/simple_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.s
 .PHONY : src/simple_subscriber.cpp.s
 
+src/task1.o: src/task1.cpp.o
+.PHONY : src/task1.o
+
+# target to build an object file
+src/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.o
+.PHONY : src/task1.cpp.o
+
+src/task1.i: src/task1.cpp.i
+.PHONY : src/task1.i
+
+# target to preprocess a source file
+src/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.i
+.PHONY : src/task1.cpp.i
+
+src/task1.s: src/task1.cpp.s
+.PHONY : src/task1.s
+
+# target to generate assembly for a file
+src/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/src/task1.cpp.s
+.PHONY : src/task1.cpp.s
+
+src/task2.o: src/task2.cpp.o
+.PHONY : src/task2.o
+
+# target to build an object file
+src/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/task2.cpp.o
+.PHONY : src/task2.cpp.o
+
+src/task2.i: src/task2.cpp.i
+.PHONY : src/task2.i
+
+# target to preprocess a source file
+src/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/task2.cpp.i
+.PHONY : src/task2.cpp.i
+
+src/task2.s: src/task2.cpp.s
+.PHONY : src/task2.s
+
+# target to generate assembly for a file
+src/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/task2.cpp.s
+.PHONY : src/task2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... simple_publisher"
 	@echo "... simple_subscriber"
+	@echo "... task1"
+	@echo "... task2"
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
 	@echo "... src/simple_subscriber.o"
 	@echo "... src/simple_subscriber.i"
 	@echo "... src/simple_subscriber.s"
+	@echo "... src/task1.o"
+	@echo "... src/task1.i"
+	@echo "... src/task1.s"
+	@echo "... src/task2.o"
+	@echo "... src/task2.i"
+	@echo "... src/task2.s"
 .PHONY : help
 
 

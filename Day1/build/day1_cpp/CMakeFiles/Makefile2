@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/om/ROS2_Workshop/Day1/build/day1_cpp
 # The main recursive "all" target.
 all: CMakeFiles/simple_publisher.dir/all
 all: CMakeFiles/simple_subscriber.dir/all
+all: CMakeFiles/task1.dir/all
+all: CMakeFiles/task2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/day1_cpp_uninstall.dir/clean
 clean: CMakeFiles/simple_publisher.dir/clean
 clean: CMakeFiles/simple_subscriber.dir/clean
+clean: CMakeFiles/task1.dir/clean
+clean: CMakeFiles/task2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +185,58 @@ simple_subscriber: CMakeFiles/simple_subscriber.dir/rule
 CMakeFiles/simple_subscriber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/clean
 .PHONY : CMakeFiles/simple_subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task1.dir
+
+# All Build rule for target.
+CMakeFiles/task1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles --progress-num=5,6 "Built target task1"
+.PHONY : CMakeFiles/task1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/task1.dir/rule
+
+# Convenience name for target.
+task1: CMakeFiles/task1.dir/rule
+.PHONY : task1
+
+# clean rule for target.
+CMakeFiles/task1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/clean
+.PHONY : CMakeFiles/task1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task2.dir
+
+# All Build rule for target.
+CMakeFiles/task2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles --progress-num=7,8 "Built target task2"
+.PHONY : CMakeFiles/task2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/task2.dir/rule
+
+# Convenience name for target.
+task2: CMakeFiles/task2.dir/rule
+.PHONY : task2
+
+# clean rule for target.
+CMakeFiles/task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
+.PHONY : CMakeFiles/task2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

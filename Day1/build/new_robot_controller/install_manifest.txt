@@ -1,5 +1,6 @@
 /home/om/ROS2_Workshop/Day1/install/new_robot_controller/include/include/new_robot_controller/simple_controller.hpp
 /home/om/ROS2_Workshop/Day1/install/new_robot_controller/lib/new_robot_controller/simple_controller
+/home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch/controller.launch.py
 /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch/joystick_teleop.launch.py
 /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/launch/simple_controller.launch.py
 /home/om/ROS2_Workshop/Day1/install/new_robot_controller/share/new_robot_controller/config/joy_config.yaml

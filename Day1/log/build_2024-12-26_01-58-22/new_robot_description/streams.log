@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/om/ROS2_Workshop/Day1/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/ROS2_Workshop/Day1/build/new_robot_description -- -j8 -l8
+[0.085s] Invoked command in '/home/om/ROS2_Workshop/Day1/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --build /home/om/ROS2_Workshop/Day1/build/new_robot_description -- -j8 -l8
+[0.102s] Invoking command in '/home/om/ROS2_Workshop/Day1/build/new_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/ROS2_Workshop/Day1/build/new_robot_description
+[0.115s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/camera.xacro
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/base_robot.xacro
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/common_properties.xacro
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/base_robot_gazebo.xacro
+[0.116s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/my_robot.urdf.xacro
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/ros2_control.xacro
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//urdf/laser.xacro
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//launch
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//launch/gazebo.launch.py
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//launch/display.launch.py
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//launch/my_robot.launch.xml
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//rviz
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//rviz/urdf_config.rviz
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description//rviz/display.rviz
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/ament_index/resource_index/package_run_dependencies/new_robot_description
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/ament_index/resource_index/parent_prefix_path/new_robot_description
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.sh
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/environment/ament_prefix_path.dsv
+[0.117s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/environment/path.sh
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/environment/path.dsv
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/local_setup.bash
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/local_setup.sh
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/local_setup.zsh
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/local_setup.dsv
+[0.118s] -- Installing: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/package.dsv
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/ament_index/resource_index/packages/new_robot_description
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig-version.cmake
+[0.118s] -- Up-to-date: /home/om/ROS2_Workshop/Day1/install/new_robot_description/share/new_robot_description/package.xml
+[0.120s] Invoked command in '/home/om/ROS2_Workshop/Day1/build/new_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/turtlebot3_ws/install/vfh_control:/home/om/turtlebot3_ws/install/turtlebot3_teleop:/home/om/turtlebot3_ws/install/turtlebot3_example:/home/om/pico_ws2/install/crsf_ros2:/home/om/slambot/install/gesture_control:/home/om/slambot/install/ges_control:/opt/ros/humble /usr/bin/cmake --install /home/om/ROS2_Workshop/Day1/build/new_robot_description
