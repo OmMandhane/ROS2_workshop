@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-4c01468823e938744e9d23979e5cb953 CMakeFiles/day1_cpp_uninstall
