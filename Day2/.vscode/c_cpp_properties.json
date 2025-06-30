@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/om/ROS2_Workshop/Day2/install/new_robot_controller/include/**",
+        "/home/om/dobot_ws/install/dobot_msgs_v4/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/om/ROS2_Workshop/Day2/src/new_robot_controller/include/**",
+        "/home/om/ROS2_Workshop/Day2/src/new_robot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,19 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/om/dobot_ws/install/servo_action/lib/python3.10/site-packages",
+        "/home/om/dobot_ws/install/dobot_msgs_v4/local/lib/python3.10/dist-packages",
+        "/home/om/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages",
+        "/home/om/dobot_ws/install/dobot_demo/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/om/dobot_ws/install/servo_action/lib/python3.10/site-packages",
+        "/home/om/dobot_ws/install/dobot_msgs_v4/local/lib/python3.10/dist-packages",
+        "/home/om/dobot_ws/install/dobot_moveit/lib/python3.10/site-packages",
+        "/home/om/dobot_ws/install/dobot_demo/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

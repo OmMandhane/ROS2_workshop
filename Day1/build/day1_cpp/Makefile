@@ -249,6 +249,19 @@ task2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
 .PHONY : task2/fast
 
+#=============================================================================
+# Target rules for targets named task2_2
+
+# Build rule for target.
+task2_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task2_2
+.PHONY : task2_2
+
+# fast build rule for target.
+task2_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2_2.dir/build.make CMakeFiles/task2_2.dir/build
+.PHONY : task2_2/fast
+
 src/simple_publisher.o: src/simple_publisher.cpp.o
 .PHONY : src/simple_publisher.o
 
@@ -345,6 +358,30 @@ src/task2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/src/task2.cpp.s
 .PHONY : src/task2.cpp.s
 
+src/task2_2.o: src/task2_2.cpp.o
+.PHONY : src/task2_2.o
+
+# target to build an object file
+src/task2_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2_2.dir/build.make CMakeFiles/task2_2.dir/src/task2_2.cpp.o
+.PHONY : src/task2_2.cpp.o
+
+src/task2_2.i: src/task2_2.cpp.i
+.PHONY : src/task2_2.i
+
+# target to preprocess a source file
+src/task2_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2_2.dir/build.make CMakeFiles/task2_2.dir/src/task2_2.cpp.i
+.PHONY : src/task2_2.cpp.i
+
+src/task2_2.s: src/task2_2.cpp.s
+.PHONY : src/task2_2.s
+
+# target to generate assembly for a file
+src/task2_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2_2.dir/build.make CMakeFiles/task2_2.dir/src/task2_2.cpp.s
+.PHONY : src/task2_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -364,6 +401,7 @@ help:
 	@echo "... simple_subscriber"
 	@echo "... task1"
 	@echo "... task2"
+	@echo "... task2_2"
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
@@ -376,6 +414,9 @@ help:
 	@echo "... src/task2.o"
 	@echo "... src/task2.i"
 	@echo "... src/task2.s"
+	@echo "... src/task2_2.o"
+	@echo "... src/task2_2.i"
+	@echo "... src/task2_2.s"
 .PHONY : help
 
 

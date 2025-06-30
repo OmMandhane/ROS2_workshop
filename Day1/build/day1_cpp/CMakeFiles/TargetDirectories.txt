@@ -4,6 +4,7 @@
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/simple_subscriber.dir
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/task1.dir
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/task2.dir
+/home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/task2_2.dir
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/test.dir
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/edit_cache.dir
 /home/om/ROS2_Workshop/Day1/build/day1_cpp/CMakeFiles/rebuild_cache.dir

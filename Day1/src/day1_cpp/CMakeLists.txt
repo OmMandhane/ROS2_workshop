@@ -23,11 +23,15 @@ ament_target_dependencies(task1 rclcpp std_msgs geometry_msgs)
 add_executable(task2 src/task2.cpp)
 ament_target_dependencies(task2 turtlesim rclcpp std_msgs geometry_msgs)
 
+add_executable(task2_2 src/task2_2.cpp)
+ament_target_dependencies(task2_2 turtlesim rclcpp std_msgs geometry_msgs)
+
 install(TARGETS
   simple_publisher
   simple_subscriber
   task1
   task2
+  task2_2
   DESTINATION lib/${PROJECT_NAME}
 )
 

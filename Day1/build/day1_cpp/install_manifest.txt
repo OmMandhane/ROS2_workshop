@@ -2,6 +2,7 @@
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/simple_subscriber
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/task1
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/task2
+/home/om/ROS2_Workshop/Day1/install/day1_cpp/lib/day1_cpp/task2_2
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/ament_index/resource_index/package_run_dependencies/day1_cpp
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/ament_index/resource_index/parent_prefix_path/day1_cpp
 /home/om/ROS2_Workshop/Day1/install/day1_cpp/share/day1_cpp/environment/ament_prefix_path.sh
